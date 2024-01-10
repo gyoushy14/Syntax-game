@@ -1,0 +1,92 @@
+body{
+    background-color: #222831;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 3%;
+    background-color: #1a242f;
+}
+#cont{
+    background-color: antiquewhite;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 100px;
+    height: 80px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color:white;
+    text-decoration: none;
+}
+.nav_links li a:hover{
+    color: #edf0f1ab;
+    font-size: 16px;
+}
+.sign{
+    padding: 9px 25px;
+    background-color: #007DBC;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.sign:hover{
+    background-color: #007dbc83;
+    color: rgba(255, 255, 255, 0.651);
+}
+.login{
+    background-color: transparent;
+    border: 2px solid #007DBC;
+    padding: 9px 25px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    font-size: 16px;
+
+}
+.login:hover{
+    background-color: #007dbc83;
+    color: rgba(255, 255, 255, 0.651);
+}
+#text{
+    letter-spacing: 2px;
+}
+#results{
+    list-style: none;
+}
+
+#last_btn{
+    margin-right: 25px;
+}
+input{
+    margin-left: 250px;
+    margin-bottom: 40px; 
+    border: 1px solid dodgerblue;
+    transition: 300ms;
+}
+input:hover{
+    border:  3px solid dodgerblue;
+    line-height: 3; 
+    transition: 300ms;
+    cursor:context-menu;
+}
+p:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Game </title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"   href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="../Our photos/White_logo.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../2-Homepage/div-cards.html"><i class ="fa fa-home"></i> Home</a></li>
+                <li><a id="theClikedBTN" href="file:///C:/Users/EL-TAWHEED/Desktop/su-blitz/games/game.html"><i class="fa-solid fa-book" ></i> Games</a></li>
+                <li><a href="../3-About US/AboutUSPage.html"><i class="fa-regular fa-address-card"></i> About Us</a></li>
+                <li><a href="../4-Contact us/project.html"><i class="fa-solid fa-phone-volume"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <a href="../form-hana - Copy/workshop.html"><button class="sign"><i class="fa-solid fa-user"></i> Sign in</button></a>
+        <a href="../LOGIN/English/Login_page.html"><button class="login"><i class="fa-solid fa-right-to-bracket"></i> Log in</button></a>
+    </header><br><br>
+    <center><h1 class="text-white fw-bold">Syntax Game</h1></center><br>
+<div id="cont" class="container rounded-3 w-75 p-4" >
+    <div id="contchild" class="border border-dark border-1 p-3 rounded-3">
+<div class="border border-dark border-1 p-3 rounded-3 fs-5 overflow-auto" id="text" ></div><br>
+<div > <input type="text" id="ini" class="bg-white rounded-3 w-50 p-4"></div><br>
+<div id="btns">
+    <ul id="results" class="d-flex justify-content-between">
+        <li id="time">
+        <p class="fw-bold"> Time Left : <span> <b>60</b></span> </p>            
+        </li>
+        <li id="mis">
+            <p class="fw-bold">Mistakes : <span> <b>0</b></span></p>
+            
+        </li>
+        <li id="wpm">
+            <p class="fw-bold">Correct :<span> <b>0</b></span> </p>
+            
+        </li>
+        <button id="last_btn" class="btn btn-primary text-white " type="reset">Try Again</button> 
+    </ul>
+    </div>
+    </div>
+    </div>
+
+<script src="all.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
